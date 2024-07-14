@@ -33,8 +33,12 @@ dotnet build
 
 5. Run the app:
 ```sh
-dotnet build
+dotnet run
 ```
+
+## Limitations
+
+- Assigns full access at organization level to said user - this will include all sub networks. In the future I may include setting access levels.
 
 ## Usage
 ![image](https://github.com/user-attachments/assets/1f66cee9-fa0a-4f6a-9384-f4de1d5c3498)
